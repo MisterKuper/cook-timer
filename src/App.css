@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  padding-top: env(safe-area-inset-top);
   font-family: 'Press Start 2P';
   color: var(--text-dark-color);
+}
+
+.App {
+  background: linear-gradient(to bottom, #170A40, #0E7A42);
 }
