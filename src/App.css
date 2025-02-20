@@ -1,0 +1,10 @@
+@import './shared/colors.css';
+@import './shared/fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P';
+  color: var(--text-dark-color);
+}

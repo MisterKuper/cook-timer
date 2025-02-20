@@ -1,0 +1,38 @@
+/* wide screen */
+@media (min-width: 1025px) {
+    .footer {
+        position: relative;
+        height: 350px;
+    }
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+    .footer {
+        position: relative;
+        height: 300px;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .footer {
+        position: relative;
+        height: 250px;
+    }
+}
+/* mobile */
+@media (max-width: 425px) {
+    .footer {
+        position: relative;
+        height: 250px;
+    }
+}
+
+/* small mobile */
+@media (max-width: 320px) {
+    .footer {
+        position: relative;
+        height: 250px;
+    }
+}

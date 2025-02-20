@@ -1,0 +1,479 @@
+/* wide screen */
+@media (min-width: 1025px) {
+    .timer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh 0;
+    }
+    
+    .pot-animation {
+        width: 50vh;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+        padding: 25px;
+        margin: 5vh 0;
+    }
+    
+    .timer-wrapper h1 {
+        text-align: center;
+        margin: 4vh 10vw 0 10vw;
+        padding: 15px 20px;
+        font-size: 38px;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button {
+        width: auto;
+        padding: 3px;
+        background-color: var(--item-dim-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+
+    .timer-wrapper button img {
+        width: 50px;
+    }
+    
+    .timer-wrapper button:hover {
+        background-color: var(--item-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button:active {
+        background-color: var(--beige-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .music-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-page-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .button-container button {
+        background-color: var(--item-dim-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:hover {
+        background-color: var(--item-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:active {
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+
+    .button-container button img {
+        width: 80px;
+    }
+    
+    .timer-wrapper h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+    .timer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh 0;
+    }
+    
+    .pot-animation {
+        width: 30vw;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+        padding: 25px;
+        margin: 5vh 0;
+    }
+    
+    .timer-wrapper h1 {
+        text-align: center;
+        margin: 4vh 10vw 0 10vw;
+        padding: 15px 20px;
+        font-size: 32px;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button {
+        width: auto;
+        padding: 3px;
+        background-color: var(--item-dim-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+
+    .timer-wrapper button img {
+        width: 50px;
+    }
+    
+    .timer-wrapper button:hover {
+        background-color: var(--item-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button:active {
+        background-color: var(--beige-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .music-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-page-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .button-container button {
+        background-color: var(--item-dim-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:hover {
+        background-color: var(--item-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:active {
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+
+    .button-container button img {
+        width: 60px;
+    }
+    
+    .timer-wrapper h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .timer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh 0;
+    }
+    
+    .pot-animation {
+        width: 50vw;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+        padding: 25px;
+        margin: 5vh 0;
+    }
+    
+    .timer-wrapper h1 {
+        text-align: center;
+        margin: 4vh 10vw 0 10vw;
+        padding: 15px 20px;
+        font-size: 32px;
+        background-color: var(--beige-color);
+        border: 12px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button {
+        width: auto;
+        padding: 3px;
+        background-color: var(--item-dim-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+
+    .timer-wrapper button img {
+        width: 50px;
+    }
+    
+    .timer-wrapper button:hover {
+        background-color: var(--item-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button:active {
+        background-color: var(--beige-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .music-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-page-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .button-container button {
+        background-color: var(--item-dim-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+
+    .button-container button:hover {
+        background-color: var(--item-background-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:active {
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+
+    .button-container button img {
+        width: 60px;
+    }
+    
+    .timer-wrapper h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+}
+
+/* mobile */
+@media (max-width: 425px) {
+    .timer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh 0;
+    }
+    
+    .pot-animation {
+        width: 70vw;
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+        padding: 20px;
+        margin: 5vh 0;
+    }
+    
+    .timer-wrapper h1 {
+        text-align: center;
+        margin: 4vh 10vw 0 10vw;
+        padding: 15px 20px;
+        font-size: 24px;
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button {
+        width: auto;
+        padding: 3px;
+        background-color: var(--item-dim-background-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+
+    .timer-wrapper button img {
+        width: 30px;
+    }
+    
+    .timer-wrapper button:hover {
+        background-color: var(--item-background-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button:active {
+        background-color: var(--beige-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+    
+    .music-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-page-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .button-container button {
+        background-color: var(--item-dim-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }s
+    
+    .button-container button:hover {
+        background-color: var(--item-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:active {
+        background-color: var(--beige-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+
+    .button-container button img {
+        width: 50px;
+    }
+    
+    .timer-wrapper h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+    }
+}
+
+/* small mobile */
+@media (max-width: 320px) {
+    .timer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh 0;
+    }
+    
+    .pot-animation {
+        width: 70vw;
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+        padding: 20px;
+        margin: 5vh 0;
+    }
+    
+    .timer-wrapper h1 {
+        text-align: center;
+        margin: 4vh 10vw 0 10vw;
+        padding: 15px 20px;
+        font-size: 24px;
+        background-color: var(--beige-color);
+        border: 10px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button {
+        width: auto;
+        padding: 3px;
+        background-color: var(--item-dim-background-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+
+    .timer-wrapper button img {
+        width: 30px;
+    }
+    
+    .timer-wrapper button:hover {
+        background-color: var(--item-background-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+    
+    .timer-wrapper button:active {
+        background-color: var(--beige-color);
+        border: 5px ridge var(--text-dark-color);
+    }
+    
+    .music-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .home-page-btn {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .button-container button {
+        background-color: var(--item-dim-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:hover {
+        background-color: var(--item-background-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+    
+    .button-container button:active {
+        background-color: var(--beige-color);
+        border: 8px ridge var(--text-dark-color);
+    }
+
+    .button-container button img {
+        width: 50px;
+    }
+    
+    .timer-wrapper h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+    }
+}
